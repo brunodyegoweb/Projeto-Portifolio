@@ -1,4 +1,3 @@
-function caregar() {
-    var body = document.querySelector('body')
+function carregar() {   
     alert('WELL COME')
 }
