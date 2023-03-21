@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
