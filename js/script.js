@@ -1,3 +1,2 @@
-function carregar() {   
-    alert('WELL COME')
+function carregar() {  
 }
