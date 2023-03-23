@@ -52,10 +52,11 @@ footer {
     font-weight: bold;
     margin-left: 50%;
     margin-right: 50%;
+    transform: translate(-50%, -50%);
     margin-top: auto;
     align-items: center;
     color:#000;
     width: 200px;
-
+    height: 20px;
     border: 2px solid green;
 }
