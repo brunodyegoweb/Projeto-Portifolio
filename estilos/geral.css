@@ -7,7 +7,6 @@ body {
     width: 100vw;
     border: 2px solid red;
     font-family: 'Roboto';
-    font-size: 1.5rem;
 }
 
 .header {
@@ -61,5 +60,4 @@ footer {
     width: 200px;
     height: 20px;
     border: 2px solid green;
-    font-size: 1rem;
 }
