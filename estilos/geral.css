@@ -34,6 +34,16 @@ ul {
     margin-right: 40px;
 }
 
+main {
+
+}
+
+.sobre {
+    border: 2px solid gray;
+    height: 200px;
+    width: 200px;
+}
+
 .section-one {
     border: 2px solid yellow;
     width: 100vw;
