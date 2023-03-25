@@ -34,9 +34,12 @@ ul {
     margin-right: 40px;
 }
 
-a {
+.link-skill {
     display: flex;
     align-items: center;
+}
+
+a {
     text-decoration: none;
 }
 
