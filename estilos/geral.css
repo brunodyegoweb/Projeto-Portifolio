@@ -86,7 +86,7 @@ footer {
     align-items: center;
     color:#000;
     width: 200px;
-    height: 47px;
+    height: 4px;
     border: 2px solid green;
 }
 
@@ -96,5 +96,6 @@ i {
 }
 
 i:hover {
-    background-color: #fff;
+    background-color: #000;
+    transition: 0.1s;
 }
