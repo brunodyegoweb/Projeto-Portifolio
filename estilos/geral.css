@@ -96,6 +96,7 @@ i {
 }
 
 i:hover {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.445);
     transition: 0.1s;
+    border-radius: 100% ;
 }
