@@ -142,15 +142,23 @@ footer {
     height: 4px;
     border: 2px solid green;
 }
+span {
+    color: var(--primary-text-color);
+}
+
+.p-span {
+    margin-bottom: 10px;
+}
 
 i {    
     font-size: 1.5rem;
     padding: 10px;
-    color: var(--secondary-color);
+    color: var(--secondary-text-color);
+   
 }
 
 i:hover {
-    background-color: rgba(0, 0, 0, 0.445);
+   font-weight: bolder;
+   color: var(--secondary-color);
     transition: 0.1s;
-    border-radius: 100% ;
 }
