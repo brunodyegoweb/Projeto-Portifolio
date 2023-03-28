@@ -41,7 +41,7 @@ body {
     border-radius: 10px;
     transition: 0.5s;
     background: #1e1e1e;
-    color: var(--main-color)
+    color: var(--main-color);
     box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
 }
 
@@ -102,9 +102,9 @@ li a:before {
     background-color: var(--secondary-text-color);
 }
 
-main {
+.section-banner {
     margin-top: 10px;
-    margin: auto;
+    margin-left: 800px;
      
 }
 
@@ -113,6 +113,7 @@ main {
     font-family: 'Luxurious Script', cursive;
     font-size: 3.5rem;
     text-shadow: 2px 2px var(--secondary-text-color);
+    text-align: center;
 }
 
 .sobre {
