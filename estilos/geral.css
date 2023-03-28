@@ -154,11 +154,14 @@ i {
     font-size: 1.5rem;
     padding: 10px;
     color: var(--secondary-text-color);
+    transition: all 850ms;
    
 }
 
 i:hover {
    font-weight: bolder;
    color: var(--secondary-color);
-    transition: 0.1s;
+
+ 
 }
+
