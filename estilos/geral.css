@@ -6,7 +6,7 @@
     --primary-text-color: #fff;
     --secondary-text-color: #1e1e1e;
     --secondary-color: #868686;
-    --secundary-bg-color: #5c1011;
+    --secundary-bg-color: #0fbcf9;
     --terciary-color: #eff3f4;
 }
 
@@ -17,6 +17,7 @@ body {
     width: 99vw;
     border: 2px solid red;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background: url(../assets/img/img-bg.jpg) center center no-repeat fixed;
     background-size: cover;
     
@@ -104,16 +105,24 @@ li a:before {
 
 .section-banner {
     margin-top: 10px;
-    margin-left: 800px;
+    margin-left: 600px;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
      
 }
 
 .title, .subtitle {
     color: var(--main-color);
     font-family: 'Luxurious Script', cursive;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px var(--secondary-text-color);
     text-align: center;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    color: var(--secundary-bg-color)
 }
 
 .sobre {
@@ -145,7 +154,7 @@ footer {
     transform: translate(-50%, -50%);
     margin-top: auto;
     align-items: center;
-    color:var(--secondary-text-color);
+    color: var(--secondary-color);
     width: 200px;
     height: 4px;
     border: 2px solid green;
@@ -162,13 +171,13 @@ i {
     font-size: 1.5rem;
     padding: 10px;
     color: var(--secondary-text-color);
-    transition: all 850ms;
+    transition: all 550ms;
    
 }
 
 i:hover {
-   font-weight: bolder;
-   color: var(--secondary-color);
+   filter: brightness(2.2); /*efeito de brilho*/
+   transform: translateY(-6px);/*translateY move o efeito no eixo y*/
 }
 
 footer a {
