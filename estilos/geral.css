@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     border: 2px solid red;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background: url(../assets/img/img-bg.jpg) center center no-repeat fixed;
@@ -27,7 +27,7 @@ body {
     justify-content:space-between;
     align-items: center;
     height: 90px;
-    width: 100vw;
+    width: 99vw;
     margin-top: 10px;
     border-bottom: 2px solid #000;
 }
@@ -69,7 +69,7 @@ body {
 
 img {
     height: 100px;
-    width: 100px;
+    width: 99px;
 }
 
 ul {
@@ -117,13 +117,13 @@ main {
 
 .section-one {
     border: 2px solid yellow;
-    width: 100vw;
+    width: 99vw;
     margin-top: 10px;
 }
 
 .section-two {
     border: 2px solid blue;
-    width: 100vw;
+    width: 99vw;
     margin-top: 10px;
 }
 footer {
