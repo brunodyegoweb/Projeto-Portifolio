@@ -87,9 +87,9 @@ ul {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: var(--main-color)
+li a, #btn {
+    text-decoration: none;  
+    color: var(--main-color);
 }
 
 
@@ -112,6 +112,7 @@ main {
     color: var(--main-color);
     font-family: 'Luxurious Script', cursive;
     font-size: 3.5rem;
+    text-shadow: 2px 2px var(--secondary-text-color);
 }
 
 .sobre {
@@ -167,7 +168,9 @@ i {
 i:hover {
    font-weight: bolder;
    color: var(--secondary-color);
+}
 
- 
+footer a {
+    text-shadow: 2px 2px var(--main-color);
 }
 
