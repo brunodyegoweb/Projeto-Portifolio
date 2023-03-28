@@ -2,7 +2,7 @@
 
 
 :root {
-    --main-color: #d92123;
+    --main-color: #adff2f;
     --primary-text-color: #fff;
     --secondary-text-color: #1e1e1e;
     --secondary-color: #868686;
@@ -41,7 +41,7 @@ body {
     border-radius: 10px;
     transition: 0.5s;
     background: #1e1e1e;
-    color: greenyellow;
+    color: var(--main-color)
     box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
 }
 
@@ -89,14 +89,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: greenyellow;
+    color: var(--main-color)
 }
 
 
 li a:before {
     content: '';
-    width: 10px;
-    height: 10px;
+    width: 6px;
+    height: 6px;
     border-radius: 100%;
     margin-right: 10px;
     background-color: var(--secondary-text-color);
@@ -109,7 +109,7 @@ main {
 }
 
 .title, .subtitle {
-    color: var(--primary-text-color);
+    color: var(--main-color);
     font-family: 'Luxurious Script', cursive;
     font-size: 3.5rem;
 }
