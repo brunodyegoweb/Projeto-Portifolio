@@ -32,9 +32,6 @@ body {
     border-bottom: 2px solid #000;
 }
 
-a {
-    color: greenyellow;
-}
 
 #btn {
     padding: 15px 30px;
@@ -92,6 +89,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: greenyellow;
 }
 
 
