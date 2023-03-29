@@ -121,6 +121,7 @@ li a:before {
 
 .subtitle {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     letter-spacing: normal;
     color: var(--secundary-bg-color)
 }
