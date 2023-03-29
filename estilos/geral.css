@@ -152,7 +152,7 @@ footer {
     align-items: center;
     color: var(--secondary-color);
     width: 200px;
-    height: 4px;
+    height: 80px;
     border: 2px solid green;
 }
 span {
@@ -167,7 +167,7 @@ i {
     font-size: 1.5rem;
     padding: 10px;
     color: var(--secondary-text-color);
-    transition: all 550ms;
+    transition: all 350ms;
    
 }
 
