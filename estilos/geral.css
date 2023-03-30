@@ -110,15 +110,6 @@ li a:before {
      
 }
 
-.title, .subtitle {
-    color: var(--main-color);
-    font-family: 'Luxurious Script', cursive;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px var(--secondary-text-color);
-    text-align: center;
-    letter-spacing: 5px;
-}
-
 .subtitle {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
