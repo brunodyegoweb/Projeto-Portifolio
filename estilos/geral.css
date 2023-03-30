@@ -110,13 +110,6 @@ li a:before {
      
 }
 
-.subtitle {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: normal;
-    color: var(--secundary-bg-color)
-}
-
 .section-one {
     border: 2px solid yellow;
     width: 99vw;

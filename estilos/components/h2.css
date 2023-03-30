@@ -1,0 +1,9 @@
+.subtitle {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px var(--secondary-text-color);
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    color: var(--secundary-bg-color)
+}
