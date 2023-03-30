@@ -48,24 +48,9 @@ ul {
     margin-right: 40px;
 }
 
-.link-skill {
-    display: flex;
-    align-items: center;
-}
-
 li a, #btn {
     text-decoration: none;  
     color: var(--main-color);
-}
-
-
-li a:before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    margin-right: 10px;
-    background-color: var(--secondary-text-color);
 }
 
 .section-one {
