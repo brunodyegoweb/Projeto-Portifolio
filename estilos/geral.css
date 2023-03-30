@@ -38,7 +38,7 @@ ul {
     margin-right: 40px;
 }
 
-li a, #btn {
+.link-header, #btn {
     text-decoration: none;  
     color: var(--main-color);
 }
