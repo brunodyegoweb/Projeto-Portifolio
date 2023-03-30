@@ -103,13 +103,6 @@ li a:before {
     background-color: var(--secondary-text-color);
 }
 
-.section-banner {
-    margin-top: 10px;
-    margin-left: 600px;
-    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
-     
-}
-
 .section-one {
     border: 2px solid yellow;
     width: 99vw;
