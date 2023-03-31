@@ -12,9 +12,8 @@
 
 body { 
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 99vw;
+    flex-direction: column;    
+    width: 98vw;
     border: 2px solid red;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -26,6 +25,10 @@ body {
     height: 80px;
     width: 80px;  
     background-color: #00000060;
+}
+
+nav {
+    border: none;
 }
 
 ul {
@@ -43,19 +46,19 @@ ul {
     color: var(--main-color);
 }
 
-.section-one {
+.section-skills, .section-projects, .section-about, .section-contacts {
     border: 2px solid yellow;
-    width: 99vw;
+    width: 98vw;
     margin-top: 10px;
     color: var(--terciary-color);
     text-align: center;
-    color: var(--main-color);
 }
 
-.title-skills {
+.title-section {
     text-shadow: 2px 2px var(--secondary-text-color);
     font-weight: bold;
     padding: 10px;
+    text-align: center;
 }
 
 .container-skills {
@@ -73,25 +76,5 @@ ul {
     color: var(--terciary-color)
 }
 
-span {
-    color: var(--primary-text-color);
-}
-
-.p-span {
-    margin-bottom: 10px;
-}
-
-i {    
-    font-size: 1.5rem;
-    padding: 10px;
-    color: var(--secondary-text-color);
-    transition: all 350ms;
-   
-}
-
-i:hover {
-   filter: brightness(2.2); 
-   transform: translateY(-6px);
-}
 
 

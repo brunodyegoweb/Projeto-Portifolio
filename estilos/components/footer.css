@@ -18,3 +18,24 @@ footer {
 .link {
     text-shadow: 2px 2px var(--main-color);
 }
+
+span {
+    color: var(--primary-text-color);
+}
+
+.p-span {
+    margin-bottom: 10px;
+}
+
+i {    
+    font-size: 1.5rem;
+    padding: 10px;
+    color: var(--secondary-text-color);
+    transition: all 350ms;
+   
+}
+
+.link:hover {
+   filter: brightness(1.8);
+   transform: translateY(-2px);    
+}
