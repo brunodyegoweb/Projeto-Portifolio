@@ -19,13 +19,13 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: bold;
     background: url(../assets/img/img-bg.jpg) center center no-repeat fixed;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 .img {
     height: 80px;
-    width: 80px;    
+    width: 80px;  
+    background-color: #00000060;
 }
 
 ul {
@@ -52,8 +52,18 @@ ul {
     color: var(--main-color);
 }
 
-.img-skills {
+.title-skills {
+    text-shadow: 2px 2px var(--secondary-text-color);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.container-skills {
     border: 2px solid #808080;
+}
+
+.container-skills .img-skills {
+    letter-spacing: 40px;
 }
 
 .section-two {
