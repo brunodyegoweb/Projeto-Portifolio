@@ -15,7 +15,7 @@ footer {
     border: 2px solid green;
 }
 
-.link {
+.linkF {
     text-shadow: 2px 2px var(--main-color);
 }
 
@@ -35,7 +35,7 @@ i {
    
 }
 
-.link:hover {
+.linkF:hover {
    filter: brightness(1.8);
    transform: translateY(-2px);    
 }

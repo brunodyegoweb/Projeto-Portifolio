@@ -1,0 +1,9 @@
+.main-ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    gap: 50px;
+    list-style: none ;
+    margin-right: 40px;
+}
