@@ -1,0 +1,6 @@
+.title-section {
+    text-shadow: 2px 2px var(--secondary-text-color);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}

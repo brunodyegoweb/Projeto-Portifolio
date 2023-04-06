@@ -1,147 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Portifólio</title>
-    
+
     <!--Fontes Google-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <!--Ícones externos-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!--Css Resset-->
-    <link rel="stylesheet" href="estilos/resset.css">
-
-    <!--Css Geral-->
-    <link rel="stylesheet" href="estilos/geral.css">
+    <link rel="stylesheet" href="estilos/resset.css" />
 
     <!--Components-->
-    <link rel="stylesheet" href="estilos/components/main-header.css">
-    <link rel="stylesheet" href="estilos/components/img.css">
-    <link rel="stylesheet" href="estilos/components/main-ul.css">
-    <link rel="stylesheet" href="estilos/components/link.css">
-    <link rel="stylesheet" href="estilos/components/main-title.css">
-    <link rel="stylesheet" href="estilos/components/subtitle.css">
-    <link rel="stylesheet" href="estilos/components/section-banner.css">
-    <link rel="stylesheet" href="estilos/components/button.css">
-    <link rel="stylesheet" href="estilos/components/footer.css">  
-    
-</head>
+    <link rel="stylesheet" href="estilos/components/main-header.css" />
+    <link rel="stylesheet" href="estilos/components/body.css" />
+    <link rel="stylesheet" href="estilos/components/root.css" />
+    <link rel="stylesheet" href="estilos/components/img.css" />
+    <link rel="stylesheet" href="estilos/components/main-ul.css" />
+    <link rel="stylesheet" href="estilos/components/link.css" />
+    <link rel="stylesheet" href="estilos/components/title.css" />
+    <link rel="stylesheet" href="estilos/components/subtitle.css" />
+    <link rel="stylesheet" href="estilos/components/title-section.css" />
+    <link rel="stylesheet" href="estilos/components/main-section.css" />
+    <link rel="stylesheet" href="estilos/components/section-banner.css" />
+    <link rel="stylesheet" href="estilos/components/button.css" />
+    <link rel="stylesheet" href="estilos/components/footer.css" />
+  </head>
 
-<body onload="carregar()">
-
+  <body onload="carregar()">
     <!--Header-->
     <header class="main-header">
+      <img
+        class="img"
+        src="assets/img/fotoperfil-full.png"
+        alt="Foto Ilustrativa do Desenvolvedor Bruno"
+      />
 
-        <img class="img" src="assets/img/fotoperfil-full.png" alt="Foto Ilustrativa do Desenvolvedor Bruno">
-        
-        <!--navigation-->
-        <nav class="main-nav">
-            <ul class="main-ul">
-
-                <li><a class="link" href="#">Skill</a></li>
-                <li><a class="link" href="#">Projetos</a></li>
-                <li><a class="link" href="#">Sobre</a></li>
-                <li><a class="link" href="#">Contatos</a></li>
-                <li><a class="link" id ="btn" href="#">Downloads CV</a></li>
-
-            </ul>
-        </nav>
-
+      <!--navigation-->
+      <nav class="main-nav">
+        <ul class="main-ul">
+          <li><a class="link" href="#">Skill</a></li>
+          <li><a class="link" href="#">Projetos</a></li>
+          <li><a class="link" href="#">Sobre</a></li>
+          <li><a class="link" href="#">Contatos</a></li>
+          <li><a class="link" id="btn" href="#">Downloads CV</a></li>
+        </ul>
+      </nav>
     </header>
-        <!--Section com o Banner-->
-        <section class="section-banner">
 
-                <div class="banner-bruno">
+    <!--Section com o Banner-->
+    <section class="section-banner">
+      <div class="banner-bruno">
+        <h1 class="title">Bruno Dyego Silveira da Silva.</h1>
+        <h2 class="subtitle">FrontEnd Develop.</h2>
+      </div>
+    </section>
 
-                    <h1 class="main-title">Bruno Dyego Silveira da Silva.</h1>
-                    <h2 class="subtitle">FrontEnd Develop.</h2>
+    <section class="section-skis">
+      <h2 class="title-section">Skills</h2>
 
-                </div>  
-                
-        </section>
-
-    <section class="section-skills">
-
-        <h2 class="title-section">Skills</h2>
-
-        <div class="container-skills">
-            
-            <div class="img-skills">
-
-                <img class="img" src="assets/img/logo-html5.png" alt="Logo HTML5">
-                <img class="img" src="assets/img/logo-css3.png" alt="Logo CSS3">
-                <img class="img" src="assets/img/logo-js.png" alt="Logo javaScript">
-                <img class="img" src="assets/img/logo-sass.png" alt="Logo Sass">
-
-            </div>
-
-            <div class="xd">
-
-                <h2 class="title-section">Ferramenta de UX Desingn</h2>
-                <img class="img" src="assets/img/logo-xd.png" alt="Logo Adob xd">
-            
-            </div>
-
-            <div class="ps">
-                
-                <h2 class="title-section">Ferramenta de Edição de Imagens</h2>
-                <img class="img" src="assets/img/logo-photoshop.png" alt="Logo Photoshop">
-            
-            </div>
-
+      <div class="container-skills">
+        <div class="img-skills">
+          <img class="img" src="assets/img/logo-html5.png" alt="Logo HTML5" />
+          <img class="img" src="assets/img/logo-css3.png" alt="Logo CSS3" />
+          <img class="img" src="assets/img/logo-js.png" alt="Logo javaScript" />
+          <img class="img" src="assets/img/logo-sass.png" alt="Logo Sass" />
         </div>
-    
+
+        <div class="xd">
+          <h2 class="title-section">Ferramenta de UX Desingn</h2>
+          <img class="img" src="assets/img/logo-xd.png" alt="Logo Adob xd" />
+        </div>
+
+        <div class="ps">
+          <h2 class="title-section">Ferramenta de Edição de Imagens</h2>
+          <img
+            class="img"
+            src="assets/img/logo-photoshop.png"
+            alt="Logo Photoshop"
+          />
+        </div>
+      </div>
     </section>
 
     <section class="main-section">
-    
-        <h2 class="title-section">Projetos </h2>       
-        
+      <h2 class="title-section">Projetos</h2>
     </section>
 
-    
     <section class="main-section">
-    
-        <h2 class="title-section">Sobre </h2>       
-        
-    
+      <h2 class="title-section">Sobre</h2>
     </section>
 
-    
     <section class="main-section">
-    
-        <h2 class="title-section">Contatos </h2>       
-        
-    
+      <h2 class="title-section">Contatos</h2>
     </section>
 
     <!--Footer-->
     <footer class="footer">
-     
-        <p class="p-span"><span>Bruno Dyego Web</span> &copy;2023</p>
+      <p class="p-span"><span>Bruno Dyego Web</span> &copy;2023</p>
 
-        <p>
-
-            <a class="linkF" href="https://github.com/brunodyegoweb" target="_blank"><i class="ri-github-fill"></i></a>
-            <a class="linkF" href="https://www.linkedin.com/in/brunodyegoweb" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
-            <a class="linkF" href="https://www.instagram.com/brunodyegoweb/" target="_blank"><i class="ri-instagram-fill"></i></a>
-            <a class="linkF" href="https://www.facebook.com/bruno.dyego.94" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
-            
-        </p>
-    
+      <p>
+        <a class="linkF" href="https://github.com/brunodyegoweb" target="_blank"
+          ><i class="ri-github-fill"></i
+        ></a>
+        <a
+          class="linkF"
+          href="https://www.linkedin.com/in/brunodyegoweb"
+          target="_blank"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+        <a
+          class="linkF"
+          href="https://www.instagram.com/brunodyegoweb/"
+          target="_blank"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+        <a
+          class="linkF"
+          href="https://www.facebook.com/bruno.dyego.94"
+          target="_blank"
+          ><i class="ri-facebook-circle-fill"></i
+        ></a>
+      </p>
     </footer>
 
     <!--javaScript-->
     <script src="js/script.js"></script>
-    
-
-</body>
+  </body>
 </html>

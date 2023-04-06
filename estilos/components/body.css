@@ -1,0 +1,11 @@
+body { 
+    display: flex;
+    flex-direction: column;    
+    width: 98vw;
+    border: 2px solid red;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: url(../../assets/img/img-bg.jpg) center center no-repeat fixed;
+    background-size: cover;  
+    overflow-x: hidden;  
+}
