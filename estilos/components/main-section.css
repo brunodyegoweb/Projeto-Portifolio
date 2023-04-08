@@ -3,9 +3,9 @@
     width: 98vw;
     margin-top: 10px;
     color: var(--terciary-color);
-    text-align: center;
+  
 }
-
+/*variação da classe*/
 .main-section.-project {
     background-color: #000000b2;
 }
@@ -17,7 +17,7 @@
     border-radius: 10px;
 }
 
-.main-section.main-section.-project figcaption {
+.main-section.main-section.-project .project-cards {
     margin-bottom: 10px;
 }
 
