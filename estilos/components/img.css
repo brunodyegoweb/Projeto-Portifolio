@@ -2,4 +2,11 @@
     height: 80px;
     width: 80px;  
     background-color: #00000060;
+    border-radius: 10px;
+    transition: all 350ms;
+}
+
+.img:hover {
+    transform: translateY(-2px);
+    background-color: #0000008e;
 }
