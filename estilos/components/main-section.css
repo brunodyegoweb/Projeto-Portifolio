@@ -5,3 +5,19 @@
     color: var(--terciary-color);
     text-align: center;
 }
+
+.main-section.-project {
+    background-color: #000000b2;
+}
+
+.main-section.-project img {
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.main-section.main-section.-project figcaption {
+    margin-bottom: 10px;
+}
+
