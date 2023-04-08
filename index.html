@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="estilos/components/title-section.css" />
     <link rel="stylesheet" href="estilos/components/main-section.css" />
     <link rel="stylesheet" href="estilos/components/project-cards.css" />
+    <link rel="stylesheet" href="estilos/components/wrapper-cards.css" />
     <link rel="stylesheet" href="estilos/components/section-banner.css" />
     <link rel="stylesheet" href="estilos/components/img-skills.css" />
     <link rel="stylesheet" href="estilos/components/button.css" />
@@ -48,6 +49,7 @@
   <body onload="carregar()">
     <!--Header-->
     <header class="main-header">
+
       <img
         class="img"
         src="assets/img/fotoperfil-full.png"
@@ -56,77 +58,107 @@
 
       <!--navigation-->
       <nav class="main-nav">
+
         <ul class="main-ul">
+
           <li><a class="link" href="#">Skill</a></li>
           <li><a class="link" href="#">Projetos</a></li>
           <li><a class="link" href="#">Sobre</a></li>
           <li><a class="link" href="#">Contatos</a></li>
           <li><a class="link" id="btn" href="#">Downloads CV</a></li>
+
         </ul>
+
       </nav>
+
     </header>
 
     <!--Section com o Banner-->
     <section class="section-banner">
+
       <div class="banner-bruno">
+
         <h1 class="title">Bruno Dyego Silveira da Silva.</h1>
         <h2 class="subtitle">FrontEnd Develop.</h2>
+
       </div>
+
     </section>
 
     <section class="main-section">
       <h2 class="title-section">Skills</h2>
 
       <div class="container-skills">
+
         <div class="img-skills">
+
           <img class="img" src="assets/img/logo-html5.png" alt="Logo HTML5" />
           <img class="img" src="assets/img/logo-css3.png" alt="Logo CSS3" />
           <img class="img" src="assets/img/logo-js.png" alt="Logo javaScript" />
           <img class="img" src="assets/img/logo-sass.png" alt="Logo Sass" />
+
         </div>
 
         <div class="xd">
+
           <h2 class="title-section">Ferramenta de UX Desingn</h2>
           <img class="img" src="assets/img/logo-xd.png" alt="Logo Adob xd" />
+
         </div>
 
         <div class="ps">
+
           <h2 class="title-section">Ferramenta de Edição de Imagens</h2>
+
           <img
             class="img"
             src="assets/img/logo-photoshop.png"
             alt="Logo Photoshop"
           />
+
         </div>
+
       </div>
+
     </section>
 
     <section class="main-section -project">
       <h2 class="title-section">Projetos</h2>
-      <figure class="project-cards">
-        <img src="assets/img/fotoperfil-full.png" alt="" />
-      </figure>
 
-      <figure class="project-cards">
-        <img src="assets/img/fotoperfil-full.png" alt="" />
-      </figcaption>
-      </figure>
+      <div class="wrapper-cards">
 
-      <figure class="project-cards">
-        <img src="assets/img/fotoperfil-full.png" alt="" />
-      </figure>
+        <figure class="project-cards">
+          <img src="assets/img/fotoperfil-full.png" alt="" />
+        </figure>
+
+        <figure class="project-cards">
+          <img src="assets/img/fotoperfil-full.png" alt="" />
+        </figcaption>
+        </figure>
+
+        <figure class="project-cards">
+          <img src="assets/img/fotoperfil-full.png" alt="" />
+        </figure>
+
+      </div>
+
     </section>
 
     <section class="main-section">
+
       <h2 class="title-section">Sobre</h2>
+
     </section>
 
     <section class="main-section">
+
       <h2 class="title-section">Contatos</h2>
+
     </section>
 
     <!--Footer-->
     <footer class="footer">
+
       <p class="p-span"><span>Bruno Dyego Web</span> &copy;2023</p>
 
       <p>
@@ -149,9 +181,11 @@
           class="linkF"
           href="https://www.facebook.com/bruno.dyego.94"
           target="_blank"
-          ><i class="ri-facebook-circle-fill"></i
-        ></a>
+          ><i class="ri-facebook-circle-fill"></i>
+        </a>
+
       </p>
+
     </footer>
 
     <!--javaScript-->
