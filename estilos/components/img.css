@@ -10,3 +10,8 @@
     transform: translateY(-2px);
     background-color: #0000008e;
 }
+
+.img.-imgg {
+    width: 100px;
+    height: 100px ;
+}
