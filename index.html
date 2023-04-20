@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="estilos/components/title-section.css" />
     <link rel="stylesheet" href="estilos/components/main-section.css" />
     <link rel="stylesheet" href="estilos/components/main-cards.css" />
-    <link rel="stylesheet" href="estilos/components/main-cards.css" />
+    <link rel="stylesheet" href="estilos/components/card-card.css" />
     <link rel="stylesheet" href="estilos/components/project-cards.css" />
     <link rel="stylesheet" href="estilos/components/wrapper-cards.css" />
     <link rel="stylesheet" href="estilos/components/section-banner.css" />
@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="estilos/components/footer.css" />
   </head>
 
-  <body onload="carregar()">
+  <body>
     <!--Header-->
     <header class="main-header">
 
@@ -168,29 +168,20 @@
 
          
             
-            <figurre class="card-card">
-
-              <figcaption class="title">2008</figcaption>
-
-              <img src="assets/img/logo-m-ifpa.png" alt="Logo IFPA" class="logo">
-
-            </figurre>
-
-            <figurre class="card-card">
-
-              <figcaption class="title">2011</figcaption>
-
-              <img src="assets/img/logo-hotsat.png" alt="Logo Hot Sat" class="logo">
-
-            </figurre>
-
-            <figurre class="card-card">
-
-              <figcaption class="title">2011</figcaption>
-
-              <img src="assets/img/logo-m-ufra.png" alt="Logo IFPA" class="logo">
-
-            </figurre>
+            <div class="wraper-card">
+                <figurre class="card-card">
+                      <figcaption class="title">2008</figcaption>
+                      <img src="assets/img/logo-m-ifpa.png" alt="Logo IFPA" class="logo">
+                </figurre>
+                <figurre class="card-card">
+                    <figcaption class="title">2011</figcaption>
+                    <img src="assets/img/logo-hotsat.png" alt="Logo Hot Sat" class="logo">
+                </figurre>
+                <figurre class="card-card">
+                    <figcaption class="title">2011</figcaption>
+                    <img src="assets/img/logo-m-ufra.png" alt="Logo IFPA" class="logo">
+                </figurre>
+            </div>
 
             <figurre class="card-card">
 
@@ -250,6 +241,6 @@
     </footer>
 
     <!--javaScript-->
-    <script src="js/script.js"></script>
+    <script src="js/components/main-carousel.js"></script>
   </body>
 </html>
