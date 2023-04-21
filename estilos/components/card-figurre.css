@@ -1,0 +1,6 @@
+.card-figurre {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px dashed red;
+    width: 100%;
+}
