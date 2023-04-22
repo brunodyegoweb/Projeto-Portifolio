@@ -49,6 +49,7 @@
     <link rel="stylesheet" href="estilos/components/main-description.css" />
     <link rel="stylesheet" href="estilos/components/button-arrow.css" />
     <link rel="stylesheet" href="estilos/components/button.css" />
+    <link rel="stylesheet" href="estilos/components/main-label.css" />
     <link rel="stylesheet" href="estilos/components/main-footer.css" />
   </head>
 
@@ -203,14 +204,24 @@
       <h2 class="title-section">Contatos</h2>
 
       <form action="" method="get">
+
         <div class="input-form">
-          Nome: 
-          <input type="text" name="txtNome" id="itxtNome" required>
-          E-mail:
-          <input type="email" name="txtEmail" id="itxtEmail" required>
-          Mensagem:
-          <textarea name="txtArea" id="itxtArea" cols="30" rows="10" required></textarea>
+          <label class="main-label" for="itxtNome">Nome:</label> 
+
+          <input class="main-input" type="text" name="txtNome" id="itxtNome" required>
+
+          <label class="main-label" for="itxtEmail">E-mail:</label>
+
+          <input class="main-input" type="email" name="txtEmail" id="itxtEmail" required>
+
+          <label class="main-label" for="itxtArea">Mensagem:</label>
+
+          <textarea name="txtArea" id="itxtArea" required></textarea>
+
+          <button type="submit">Enviar</button>
+
         </div>
+        
       </form>
 
     </section>
