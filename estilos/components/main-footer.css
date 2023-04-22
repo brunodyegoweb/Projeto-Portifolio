@@ -1,4 +1,4 @@
-footer {
+.main-footer {
     display: flex;
     flex-direction:column;
     justify-content: end;
@@ -12,14 +12,13 @@ footer {
     color: var(--secondary-color);
     width: 200px;
     height: 80px;
-    border: 2px solid green;
 }
 
-.linkF {
+.main-footer .linkF {
     text-shadow: 2px 2px var(--main-color);
 }
 
-span {
+.main-footer span {
     color: var(--primary-text-color);
 }
 
@@ -27,7 +26,7 @@ span {
     margin-bottom: 10px;
 }
 
-i {    
+.main-footer i {    
     font-size: 1.5rem;
     padding: 10px;
     color: var(--secondary-text-color);
@@ -38,4 +37,8 @@ i {
 .linkF:hover {
    filter: brightness(1.8);
    transform: translateY(-2px);    
+}
+
+.main-footer a {
+    text-decoration: none;
 }
