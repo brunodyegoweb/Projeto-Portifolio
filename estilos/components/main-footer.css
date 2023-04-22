@@ -16,13 +16,14 @@
 
 .main-footer .linkF {
     text-shadow: 2px 2px var(--main-color);
+    text-decoration: none;
 }
 
 .main-footer span {
     color: var(--primary-text-color);
 }
 
-.p-span {
+.main-footer .p-span {
     margin-bottom: 10px;
 }
 
@@ -34,11 +35,9 @@
    
 }
 
-.linkF:hover {
+.main-footer .linkF:hover {
    filter: brightness(1.8);
    transform: translateY(-2px);    
 }
 
-.main-footer a {
-    text-decoration: none;
-}
+
