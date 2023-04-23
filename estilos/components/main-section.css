@@ -1,8 +1,6 @@
 .main-section {
     width: 98vw;
-    margin-top: 10px;
-    color: var(--terciary-color);
-  
+    margin-top: 10px;   
 }
 /*variação da classe*/
 .main-section.-project {
