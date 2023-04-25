@@ -1,5 +1,18 @@
 .main-description {
-    line-height: 1.3;
-    padding-left: 50px;
-    padding-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0000006b;
+    font-size: 1.8rem;
+    height: 350px;   
+}
+
+.main-description > a {
+    color: var(--main-color);
+}
+
+.main-description > a:hover {
+    color: var(--secundary-bg-color);
 }
