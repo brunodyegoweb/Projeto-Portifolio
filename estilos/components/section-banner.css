@@ -1,11 +1,8 @@
 .section-banner {
-    display: block;
-    position: relative;
     margin-top: 10px; 
-    left:50px;    
+    text-align: center;
 }
 
 .banner-bruno {
-    position: absolute;
-    z-index: 1;
+    z-index: 0;
 }
