@@ -1,5 +1,14 @@
 @media (max-width: 980px) {
-    .main-nav {
+     .main-nav > .main-ul {
         display: none;
     }
 }
+
+
+@media (min-width: 980px) {
+    .main-nav > .icon-menu {
+        display: none;
+        text-align: center;
+    }
+}
+
