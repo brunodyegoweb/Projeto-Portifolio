@@ -6,5 +6,5 @@ body {
     font-weight: bold;
     background: url(../../assets/img/img-bg.jpg) center center no-repeat fixed;
     background-size: cover;  
-    overflow-x: hidden;  
+    overflow-x: hidden; 
 }
