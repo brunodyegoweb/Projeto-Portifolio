@@ -3,7 +3,6 @@
 }
 
 .icon-menu i:hover {
-    transform: translateY(-2px);
     background-color: #0000008e;
     border-radius: 10px;
 }
