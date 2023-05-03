@@ -7,8 +7,19 @@
     margin-top: 10px;  
 }
 
-@media  (max-width:768px) {
+@media  (max-width:834px) {
     .main-nav {
         display: none;
     }    
+
+    .main-header {
+        justify-content:baseline;
+        background-color: #000;
+        position:absolute;
+    }
+
+    .icon-menu i {
+        display: flex;
+        position: relative;
+    }
 }
