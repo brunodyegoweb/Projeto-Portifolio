@@ -4,18 +4,4 @@
     margin-top: 20px;
 }
 
-@media (max-width: 980px) {
-     .main-nav > .main-ul {
-        display: none;        
-    }
-    .icon-menu {
-        padding: 30px;
-    }
-}
-
-@media (min-width: 980px) {
-    .main-nav > .icon-menu {
-        display: none;
-    }
-}
 

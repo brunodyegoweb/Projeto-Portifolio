@@ -1,5 +1,6 @@
 .icon-menu i  {
     transition: all 350ms;
+    font-size: 30px;
 }
 
 .icon-menu i:hover {
