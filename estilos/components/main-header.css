@@ -11,15 +11,4 @@
     .main-nav {
         display: none;
     }    
-
-    .main-header {
-        justify-content:baseline;
-        background-color: #000;
-        position:absolute;
-    }
-
-    .icon-menu i {
-        display: flex;
-        position: relative;
-    }
 }
