@@ -10,8 +10,7 @@
 @media (max-width:600px) {
     .main-nav {
         display: none;
-        flex-direction: row;
-        justify-content: center;
-        margin-right: 550px;
+        flex-direction: column;
+    
     }    
 }
