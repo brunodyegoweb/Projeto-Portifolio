@@ -1,5 +1,6 @@
 .main-header {
     display: flex;
+    position: relative;
     justify-content:space-between;
     align-items: center;
     height: 90px;
@@ -10,5 +11,8 @@
 @media (max-width:600px) {
     .main-nav {
         display: none;    
-    }    
+    }  
+    .main-header {
+        margin-bottom: 40px;
+    }  
 }

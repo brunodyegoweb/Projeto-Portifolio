@@ -12,9 +12,8 @@
     .main-ul {
         flex-direction:column;
         gap: 10px;
-        margin-left: 0;
-        margin-right: 0;
-        background-color: #fff;
-        width: 100%;
+        background-color: #00000060;
+        width: 100vw;
+        align-items: center;
     }
 }

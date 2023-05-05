@@ -3,6 +3,7 @@
     font-size: 30px;
     padding: 20px;  
     display: none;
+    position: absolute;
 }
 
 .ri-menu-fill:hover {
@@ -14,6 +15,6 @@
     .ri-menu-fill {
         display: block;
         padding: 30px;
-        margin-right: 20px;
+        right: 10px;
     }
 }
