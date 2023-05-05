@@ -1,5 +1,5 @@
  function mudaTamanho() {
-    if(window.innerWidth >= 768){
+    if(window.innerWidth >= 601){
         menu.style.display = 'flex'
     } else {
         menu.style.display = "none"
