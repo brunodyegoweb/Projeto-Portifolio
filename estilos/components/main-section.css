@@ -5,6 +5,12 @@
     /*border: 3px solid #fff;*/
 }
 
+@media (max-width: 600px) {
+    #skill {
+        margin-bottom: 500px;
+    }
+}
+
 .main-section.-project {
     height: 560px;
 }
