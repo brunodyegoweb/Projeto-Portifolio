@@ -15,6 +15,12 @@
     height: 560px;
 }
 
+@media (max-width: 600px) {
+    .main-section.-project {
+        margin-bottom: 700px;
+    }
+}
+
 .main-section.-project img {
     height: 100px;
     width: 100px;
