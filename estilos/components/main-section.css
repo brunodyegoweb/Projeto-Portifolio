@@ -9,10 +9,14 @@
     #skill {
         margin-bottom: 500px;
     }
+
+    #about {
+        margin-bottom: 970px;
+    }
 }
 
 .main-section.-project {
-    height: 560px;
+    height: 600px;
 }
 
 @media (max-width: 600px) {

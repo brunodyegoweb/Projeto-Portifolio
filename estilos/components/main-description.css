@@ -13,6 +13,12 @@
     margin: auto;
 }
 
+@media (max-width: 600px) {
+    .main-description {
+        height: 1520px;
+    }
+}
+
 .main-description > a {
     color: var(--main-color);
 }
