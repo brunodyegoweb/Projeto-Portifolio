@@ -8,7 +8,7 @@
     margin-right: 40px;
 }
 
-@media (max-width:600px) {
+@media (max-width: 992px) {
     .main-ul {
         flex-direction:column;
         gap: 10px;

@@ -13,7 +13,7 @@
     margin: auto;
 }
 
-@media (max-width: 600px) {
+@media (min-width:768px) {
     .main-description {
         height: 1520px;
     }
