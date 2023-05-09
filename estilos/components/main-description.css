@@ -6,17 +6,11 @@
     font-weight: bold;
     color: #fff;
     background-color: #0000006b;
-    font-size: 1.8rem;
+    font-size: max(1.2rem, 2vw);
     height: 480px;  
     width: 90%;
     border-radius: 10px;
     margin: auto;
-}
-
-@media (min-width:768px) {
-    .main-description {
-        height: 1520px;
-    }
 }
 
 .main-description > a {
@@ -25,4 +19,11 @@
 
 .main-description > a:hover {
     color: var(--secundary-bg-color);
+}
+
+@media (max-width: 992px) {
+    .main-description {
+        height: 665px;
+        padding-bottom: 20px;
+    }
 }

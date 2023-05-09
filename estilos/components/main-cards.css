@@ -7,14 +7,14 @@
     margin-bottom: 20px;
 }
 
+.main-cards .itens {
+    overflow: hidden;
+    width: 100%;
+}
+
 @media (max-width: 992px) {
     .main-cards {
         padding: 0px 15px 0px 10px;
         width: 101%;
     }
-}
-
-.main-cards .itens {
-    overflow: hidden;
-    width: 100%;
 }
