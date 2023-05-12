@@ -5,7 +5,7 @@
     padding: 30px 50px 0 50px;
     font-weight: bold;
     color: #fff;
-    background-color: #0000006b;
+    background-color: red;
     font-size: max(1.2rem, 2vw);
     height: 480px;  
     width: 90%;
@@ -21,9 +21,12 @@
     color: var(--secundary-bg-color);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
     .main-description {
-        height: 665px;
-        padding: 10px;
+        height: 705px;
+        padding: 5px;
     }
 }
+
+
+

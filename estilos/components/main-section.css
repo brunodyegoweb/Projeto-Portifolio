@@ -20,7 +20,7 @@
     margin-bottom: 10px;
 }
 
-@media  (max-width: 992px)  {
+@media  (max-width: 600px)  {
     #skill {
         margin-bottom: 500px;
     }
@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 992px)  {
+@media (max-width: 600px)  {
     .main-section.-project {
         margin-bottom: 700px;
     }
