@@ -1,11 +1,11 @@
 .main-description {
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
     text-indent: 30px;
     padding: 30px 50px 0 50px;
     font-weight: bold;
     color: #fff;
-    background-color: red;
+    background-color: #00000073;
     font-size: max(1.2rem, 2vw);
     height: 480px;  
     width: 90%;
@@ -19,6 +19,19 @@
 
 .main-description > a:hover {
     color: var(--secundary-bg-color);
+}
+
+@media (max-width: 320px) {
+    .main-description {
+     font-size: 18px;
+     padding: 5px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 428px) {
+    .main-description {
+        font-size: 20.2px;
+    }
 }
 
 @media (max-width: 600px) {
