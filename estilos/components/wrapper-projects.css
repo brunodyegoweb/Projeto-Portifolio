@@ -8,3 +8,9 @@
     background-color: #0000007a;
     border-radius: 10px;
 }
+
+@media (min-width: 768px) and (max-width: 884px) {
+    .wrapper-projects {
+       width: 220px;
+    }   
+  }

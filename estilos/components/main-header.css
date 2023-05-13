@@ -16,3 +16,9 @@
         margin-bottom: 40px;
     }  
 }
+
+@media (min-width: 768px) and (max-width: 884px) {
+    .main-header .ri-menu-fill {
+        display: none;
+    }   
+}
