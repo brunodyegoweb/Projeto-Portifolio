@@ -4,11 +4,11 @@
     padding: 20px;  
     display: none;
     position: absolute;
+    color: var(--secundary-bg-color);
 }
 
 .ri-menu-fill:hover {
-    background-color: #0000008e;
-    border-radius: 10px;
+    transform: translateY(-2px);
 }
 
 @media (max-width: 992px) {
