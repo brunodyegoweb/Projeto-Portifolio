@@ -10,7 +10,6 @@
 .main-cards .itens {
     overflow: hidden;
     width: 100%;
-    background-color: #fff;
 }
 
 @media (max-width: 992px) {
