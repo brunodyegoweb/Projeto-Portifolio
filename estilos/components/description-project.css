@@ -2,5 +2,6 @@
     color: var(--primary-text-color);
     padding: 10px;
     text-align: center;
+    line-height: 30px;
 }
 
